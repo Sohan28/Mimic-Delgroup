@@ -1,11 +1,11 @@
 a.out: 
-	CProject.o CProjectFunctions. 
-	gcc CProject.o CProjectFunctions.o 
+	MimicDelgroup.o MimicDelgroupFunctions.c
+	gcc MimicDelgroup.o MimicDelgroupFunctions.o 
 
-CProject.o: 
-	CProject.c CProjectHeaders.h 
-	gcc -c CProject.c 
+MimicDelgroup.o: 
+	MimicDelgroup.c MimicDelgroupHeaders.h 
+	gcc -c MimicDelgroup.c 
 
-CProjectFunctions.o: 
-	CProjectFunctions.c CProjectHeaders.h 
-	gcc -c CProjectFunctions.c 
+MimicDelgroupFunctions.o: 
+	MimicDelgroupFunctions.c MimicDelgroupHeaders.h 
+	gcc -c MimicDelgroupFunctions.c 
